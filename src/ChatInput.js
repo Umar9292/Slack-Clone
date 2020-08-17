@@ -23,6 +23,8 @@ const ChatInput = ({ channelName, channelId}) => {
                 userimage: user.photoURL
             });
         }
+
+        setInput('');
     };
 
     return (
